@@ -17,14 +17,14 @@ namespace ChromiumArcade.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
+            ViewBag.Message = "Some general stuff about me.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Send me some stuff.";
 
             return View();
         }
