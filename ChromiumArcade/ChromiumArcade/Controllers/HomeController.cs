@@ -15,9 +15,9 @@ namespace ChromiumArcade.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult MegaMash()
         {
-            ViewBag.Message = "Some general stuff about me.";
+            ViewBag.Message = "Play Mega Mash here now!";
 
             return View();
         }
